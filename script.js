@@ -86,6 +86,7 @@ btn.addEventListener("click", function(){
     weeklySelfCarePrevious.classList.add("active");
     monthlySelfCareHours.classList.add("active");
     monthlySelfCarePrevious.classList.add("active");
+    btn.style.color = "hsl(195, 74%, 62%)";
 });
 
 secondBtn.addEventListener("click", function(){
@@ -131,6 +132,7 @@ secondBtn.addEventListener("click", function(){
     weeklySelfCarePrevious.classList.remove("active");
     monthlySelfCareHours.classList.add("active");
     monthlySelfCarePrevious.classList.add("active");
+    secondBtn.style.color = "hsl(195, 74%, 62%)";
 });
 
 thirdBtn.addEventListener("click", function(){
@@ -176,4 +178,5 @@ thirdBtn.addEventListener("click", function(){
     weeklySelfCarePrevious.classList.add("active");
     monthlySelfCareHours.classList.remove("active");
     monthlySelfCarePrevious.classList.remove("active");
+    thirdBtn.style.color = "hsl(195, 74%, 62%)";
 });
